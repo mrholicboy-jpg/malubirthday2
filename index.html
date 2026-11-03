@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#231524">
+  <meta name="description" content="For Malu. A little place for our memories, a birthday wish, and a promise for every tomorrow.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>For Malu, always ♡</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to your birthday page</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="For Malu, back to the top">for malu<span>♡</span></a>
+    <nav aria-label="Your keepsake">
+      <a href="#memories">Our little moments</a>
+      <a href="#letter">A letter for you</a>
+      <a href="#always">My promise <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✧</span> HAPPY BIRTHDAY, MALU</p>
+        <h1 id="hero-title">Life is a little<br>more beautiful<br><em>with you.</em></h1>
+        <p class="hero-intro">So I made you a little corner of the world.<br>Filled with us. Written for you. Yours to keep.</p>
+        <a class="button button-cream" href="#letter">There’s something I want to tell you <span aria-hidden="true">↗</span></a>
+        <p class="hero-footnote">Take your time. Every word is for you.</p>
+      </div>
+      <div class="character-scene" id="character-scene">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <span class="scene-star star-one" aria-hidden="true">✦</span><span class="scene-star star-two" aria-hidden="true">✧</span>
+        <span class="scene-star star-three" aria-hidden="true">✧</span>
+        <div class="birthday-seal" aria-hidden="true"><span>A LITTLE MAGIC</span><b>just for<br><i>you</i></b><span>ON YOUR DAY</span></div>
+        <button class="character-button" id="character-button" aria-label="Malu's character is carrying a letter. Open your birthday letter.">
+          <img class="character" src="assets/malu-character.png" alt="A 3D-style character inspired by Malu, in her purple sari and gold jewellery, waving and holding a little letter" width="1024" height="1536" fetchpriority="high">
+        </button>
+        <p class="character-caption">a little you. a whole lot of love.<span>tap the letter she’s carrying ↗</span></p>
+      </div>
+      <a class="scroll-cue" href="#memories"><span aria-hidden="true">↓</span> A FEW THINGS I WANT YOU TO KEEP</a>
+    </section>
+
+    <section class="memories light-section" id="memories" aria-labelledby="memory-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / THE MOMENTS I KEEP</p><h2 id="memory-title">Small moments.<br><em>So much meaning.</em></h2></div>
+        <p>A few photographs. A thousand things<br>I’m grateful for.<br><span class="handwritten">And you, in every one.</span></p>
+      </div>
+      <div class="photo-grid">
+        <button class="photo-card portrait-card" data-photo="assets/malu-portrait.jpg" data-caption="You, just as you are. More than enough." aria-label="View Malu's portrait">
+          <div class="photo-wrap"><img src="assets/malu-portrait.jpg" alt="Malu smiling in a purple sari with gold jewellery" width="1012" height="1800" loading="lazy"><span class="photo-expand" aria-hidden="true">↗</span></div>
+          <span class="photo-caption"><span>01</span> You, just as you are. <span aria-hidden="true">♡</span></span>
+        </button>
+        <button class="photo-card smiles-card" data-photo="assets/memory-smiles.jpg" data-caption="This one still makes me smile." aria-label="View the photograph of you both smiling">
+          <div class="photo-wrap"><img src="assets/memory-smiles.jpg" alt="Malu and her companion smiling and giving a thumbs-up outdoors" width="1800" height="1013" loading="lazy"><span class="photo-expand" aria-hidden="true">↗</span></div>
+          <span class="photo-caption"><span>02</span> This one still makes me smile.</span>
+        </button>
+        <button class="photo-card ride-card" data-photo="assets/memory-ride.jpg" data-caption="A little moment I’m glad we kept." aria-label="View your photograph wearing helmets">
+          <div class="photo-wrap"><img src="assets/memory-ride.jpg" alt="A candid photograph of you both wearing helmets beside a tree-lined road" width="1800" height="1013" loading="lazy"><span class="photo-expand" aria-hidden="true">↗</span></div>
+          <span class="photo-caption"><span>03</span> A moment I’m glad we kept.</span>
+        </button>
+        <button class="photo-card trees-card" data-photo="assets/memory-trees.jpg" data-caption="Here’s to more photographs, and more life together." aria-label="View your photograph among the trees">
+          <div class="photo-wrap"><img src="assets/memory-trees.jpg" alt="Malu and her companion together among trees in the sunlight" width="1800" height="1013" loading="lazy"><span class="photo-expand" aria-hidden="true">↗</span></div>
+          <span class="photo-caption"><span>04</span> And so many more to come.</span>
+        </button>
+      </div>
+      <p class="memory-afterword">Some days become photographs.<br>Some people become a part of who we are.</p>
+    </section>
+
+    <section class="letter-section" id="letter" aria-labelledby="letter-title">
+      <p class="eyebrow">02 / THE WORDS BEHIND IT ALL</p>
+      <h2 id="letter-title">If I could give you one thing, <br><em>it would be this certainty.</em></h2>
+      <p class="section-intro">Something to read today. Something to believe on every other day.</p>
+      <button class="envelope" id="open-letter" aria-expanded="false" aria-controls="birthday-letter">
+        <span class="envelope-back" aria-hidden="true"></span><span class="envelope-flap" aria-hidden="true"></span>
+        <span class="envelope-address">For Malu,<br><em>with all my heart.</em></span>
+        <span class="wax-seal" aria-hidden="true">♡</span>
+        <span class="envelope-action">OPEN YOUR LETTER <span aria-hidden="true">↗</span></span>
+      </button>
+      <article class="letter-paper" id="birthday-letter" hidden tabindex="-1" aria-label="Your birthday letter">
+        <div class="letter-topline"><span>A LITTLE LETTER. A LIFELONG PROMISE.</span><span aria-hidden="true">♡</span></div>
+        <h3>My dear Malu,</h3>
+        <p>Happy birthday.</p>
+        <p>I wanted to give you something you could come back to. Something that would still be here after the candles go out, the wishes become quiet, and another ordinary day begins. So I made this little place for you, with a few photographs and the words I sometimes struggle to say properly.</p>
+        <p>I am so glad you exist. I am so glad that, out of all the people and all the possibilities in this world, I get to know you. Looking at these photographs makes me wish I could keep little moments exactly as they are. But more than keeping the moments, I want to keep making room for you in my life.</p>
+        <blockquote>You never have to earn my care by being happy, strong, or easy to understand.</blockquote>
+        <p>You can come to me when your thoughts are a mess. You can say, “I don’t know how to explain it.” We can begin there. And if words feel too difficult, we can sit quietly for a while.</p>
+        <p>Whatever situation life brings, I will be beside you. When something wonderful happens, I want to hear every little detail. When something hurts, I want to listen without rushing you to feel better. When plans change, I want to help you find the next small step. I may not always know the answer, but I will keep showing up with patience, honesty, and care.</p>
+        <p>On your birthday, I wish you a life that feels kind to your heart. I hope you find people who notice your effort, days that leave you peaceful, and reasons to laugh when you least expect them. I hope the things you quietly wish for begin finding their way to you. And I hope you learn to look at yourself with the same tenderness I feel while writing this.</p>
+        <p>There will be new chapters neither of us can imagine yet. Through them, please carry this certainty with you: your place in my life matters. An ordinary message from you matters. How your day went matters. You matter, even on the days when you cannot quite feel it.</p>
+        <p>And that little Bangalore chapter we keep dreaming about? It can take its time. Some good things need a little patience, a few brave conversations, and apparently the approval process of a space mission. I’m ready with moral support, terrible jokes, and an unnecessarily detailed PowerPoint.</p>
+        <p>No rush, Malu. You don’t have to find all the answers today. We’ll take one small step at a time. My care for you doesn’t depend on a place, a plan, or how quickly anything works out. However that chapter unfolds, I will be here for you, just as I am now.</p>
+        <p>Happy birthday, Malu. I’m grateful for the moments already ours, and I’m looking forward to the ones we haven’t met yet.</p>
+        <p class="letter-promise">I’ll be with you through the happy days, the difficult days, and all the life in between.</p>
+        <p class="signature">Always,<br><em>me.</em> <span aria-hidden="true">♡</span></p>
+        <aside class="letter-ps" aria-label="One very important New Year reminder">
+          <span class="eyebrow">P.S. BANGALORE HAS BEEN WARNED.</span>
+          <p>And yes, I still remember our next New Year plan in Bangalore with Smirnoff. The very serious agenda: snacks, your laugh, and my world-class talent for talking absolute nonsense. We’re going to enjoy every little bit of this life together… even if Bangalore traffic keeps us in the same bit for three hours.</p>
+          <span class="ps-signoff">One plan. Two troublemakers. A whole lot of life left to enjoy. ♡</span>
+        </aside>
+        <button class="text-button" id="close-letter">Fold this letter for another day <span aria-hidden="true">↗</span></button>
+      </article>
+    </section>
+
+    <section class="notes-section light-section" aria-labelledby="notes-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / FOR THE DAYS AFTER TODAY</p><h2 id="notes-title">Keep these close.<br><em>Open when you need me.</em></h2></div><p>Because you deserve to feel cared for<br>on ordinary Tuesdays, too.</p></div>
+      <div class="notes-grid">
+        <button class="note-card" data-note="heavy"><span class="note-icon" aria-hidden="true">☁</span><span class="eyebrow">OPEN WHEN</span><span class="note-title">Life feels <br>heavy.</span><span class="note-action">A little place to rest <span aria-hidden="true">↗</span></span></button>
+        <button class="note-card" data-note="doubt"><span class="note-icon" aria-hidden="true">✧</span><span class="eyebrow">OPEN WHEN</span><span class="note-title">You doubt <br>yourself.</span><span class="note-action">Borrow my eyes for a moment <span aria-hidden="true">↗</span></span></button>
+        <button class="note-card" data-note="miss"><span class="note-icon" aria-hidden="true">♡</span><span class="eyebrow">OPEN WHEN</span><span class="note-title">You <br>miss me.</span><span class="note-action">I’m a little “hey” away <span aria-hidden="true">↗</span></span></button>
+      </div>
+    </section>
+
+    <section class="video-section" id="video-section" hidden aria-labelledby="video-title"><p class="eyebrow">ANOTHER LITTLE PIECE OF US</p><h2 id="video-title">Some moments deserve<br><em>to be played again.</em></h2><video id="memory-video" controls playsinline preload="metadata"></video></section>
+
+    <section class="promise-section" id="always" aria-labelledby="promise-title">
+      <p class="eyebrow">04 / TODAY, TOMORROW, ALWAYS</p>
+      <div class="promise-symbol" aria-hidden="true">∞</div>
+      <h2 id="promise-title">Whatever life brings,<br>you’ll have <em>me.</em></h2>
+      <p>In your loudest joys. In your quietest struggles.<br>When everything makes sense, and when nothing does.<br><strong>I will always be with you, Malu.</strong></p>
+      <div class="wish-area">
+        <button class="candle-button" id="wish-button" aria-label="Make a birthday wish and blow out the candle" aria-pressed="false"><span class="flame" aria-hidden="true"></span><span class="wick" aria-hidden="true"></span><span class="candle" aria-hidden="true"></span><span class="candle-plate" aria-hidden="true"></span></button>
+        <div aria-live="polite" id="wish-message"><p class="wish-title">One more thing. Make a wish.</p><p class="wish-instruction">Close your eyes for a moment. Then tap the flame.</p></div>
+        <button class="text-button wish-reset" id="wish-reset" hidden>Make another wish ↗</button>
+      </div>
+      <p class="birthday-ending">Happy birthday, <em>Malu.</em><span>Here’s to all the life still waiting for you.</span></p>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="#home">for malu<span>♡</span></a><p>Made with the things I don’t say often enough.</p><a href="#home">Back to the beginning ↑</a></footer>
+  <dialog id="note-dialog" class="note-dialog" aria-labelledby="note-dialog-title"><button class="dialog-close" aria-label="Close note">×</button><span class="dialog-symbol" aria-hidden="true">♡</span><p class="eyebrow">A LITTLE NOTE, JUST FOR YOU</p><h2 id="note-dialog-title"></h2><p id="note-dialog-body"></p><p class="signature">Always here.<br><em>Always me.</em></p></dialog>
+  <dialog id="photo-dialog" class="photo-dialog" aria-labelledby="photo-dialog-caption"><button class="dialog-close" aria-label="Close photograph">×</button><img id="large-photo" alt=""><p id="photo-dialog-caption"></p></dialog>
+  <div id="confetti" aria-hidden="true"></div>
+</body>
+</html>
